@@ -13,7 +13,7 @@ In real-world scenario, the design of the A/B test is shared with the Developmen
 
 - **Baseline conversion rate** taken from GA4: 11.5%
 - **Minimum detectable effect** decided by stakeholders: 1% increase
-- **Sample size**[https://www.evanmiller.org/ab-testing/sample-size.html#!11.5;80;5;1;0]: minimum of 16154 per group (control and treatment)
+- [**Sample size**](https://www.evanmiller.org/ab-testing/sample-size.html#!11.5;80;5;1;0): minimum of 16154 per group (control and treatment)
 
 The test is set to 50% of traffic diverted to the newly designed page, and 50% to the old (assigned randomly).
 
@@ -29,7 +29,6 @@ But is this result **statistically significant**?
 ### Permutation test
 - With an alpha level of 5%, **we accept the null hypothesis** (H0) and conclude that the observed result of our A/B test is **not statistically significant**.
 
-*H0: treatment's conversion rate <= control's conversion rate*
-*H1: treatment's conversion rate > control's conversion rate*
+*H0: treatment's conversion rate <= control's conversion rate // H1: treatment's conversion rate > control's conversion rate*
 
 Thank you for checking out this case study! :star2:
